@@ -23,7 +23,7 @@ Use ```-std=c++11``` option to enable c++11-mode.
 Tell your build system where tiny-dnn exists. In gcc:
 
 ```
-g++ -std=c++11 -Iyour-downloaded-path -O3 your-app.cpp -o your-app
+g++ -std=c++11 -Iyour-downloaded-path -O3 your-app.cpp -o your-app -lpthread
 ```
 
 > Another solution: place tiny-dnn's header files under your project root
